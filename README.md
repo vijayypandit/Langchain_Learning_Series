@@ -92,18 +92,8 @@ python 3.EmbeddingModels/_document_similariity.py
 
 ---
 
-## 🚀 Pushing Today's Update to GitHub
-
-Since you are pushing the Embedding model changes today, run the following commands in your terminal:
-
-```bash
-git add .
-git commit -m "feat: Add Module 3 - Embedding Models (OpenAI, Gemini, HF Local) & Cosine Similarity"
-git push origin main
-```
-
 ---
 <div align="center">
-  <p><b>Release:</b> v1.1 | <b>Status:</b> ✅ Modules 1-3 Completed | <b>Future:</b> Module 4 (Prompts) Coming Next!</p>
+  <p><b>Release:</b> v1.1 | <b>Status:</b> ✅ Modules 1-4 Completed | <b>Future:</b> Module 4 (Structured-Output) Coming Next!</p>
   <i>Built with ❤️ for AI Engineering</i>
 </div>

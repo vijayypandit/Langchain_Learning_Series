@@ -29,12 +29,35 @@ Welcome to the **LangChain Modules Learning Series**. This repository contains p
 - `_chatmodel_hf_api.py` - 🌐 **HuggingFace API** (Access to open-source models)
 - `_chatmodel_hf_local.py` - 💻 **HuggingFace Local** (Private, on-premise execution)
 
-### 📁 Module 3: Embedding Models (Semantic Search) 🚀 *[NEW]*
+### 📁 Module 3: Embedding Models (Semantic Search) 🚀
 *Converting text into numerical vectors to capture "meaning" and semantic essence.*
 - `_embedding_openai_query.py` & `_embedding_openai_docs.py` - 🟢 **OpenAI** (Industry-standard `text-embedding-3-small/large`)
 - `_embedding_gemini_query.py` - 🔵 **Google Gemini** (`text-embedding-004`)
 - `_embedding_hf_local.py` - 🤗 **HuggingFace Local** (Cost-free, private execution e.g., `all-MiniLM-L6-v2`)
 - `_document_similariity.py` - 📐 **Cosine Similarity** (Mathematical comparison of text vectors)
+
+### 📁 Module 4: Prompts & Chatbots (Prompt Engineering)
+*Building reusable prompt templates, Streamlit UI, and structured chat conversations.*
+- `prompt_generator.py` - Generate and save reusable `PromptTemplate` definitions.
+- `prompt_ui.py` - Interactive Streamlit interface for prompt-driven applications.
+- `Chatbot/chatbot.py` - State-aware chatbot with chat history persistence.
+- `Chatbot/messages.py` - Structured message roles (`SystemMessage`, `HumanMessage`, `AIMessage`).
+- `Chatbot/chat_prompt_template.ipynb` - Chat prompt template examples with conversation memory.
+
+### 📁 Module 5: Structured Output (Validated Responses)
+*Forcing models to return data in a predictable, typed structure.*
+- `pydantic_demo.ipynb` - Pydantic data modeling and validation examples.
+- `pydantic_with_structured.ipynb` - Combining Pydantic with `.with_structured_output()`.
+- `typeddict_demo.ipynb` - Using `TypedDict` for structured response validation.
+- `with_structured_output_json.ipynb` - Raw JSON Schema structured output examples.
+
+### 📁 Module 6: Output Parsers (Legacy Structured Parsing)
+*Parsing raw model text into JSON, dicts, or typed objects when structured output isn't available.*
+- `PydanticOutputParser.py` - Prompt injection and parsing via Pydantic models.
+- `JsonOutputParser.py` - Ensure valid JSON output and convert it into Python dicts.
+- `StructuredOutputParser.py.py` - Schema-based parsing using `ResponseSchema` definitions.
+- `JsonOutputParser.py` / `PydanticOutputParser.py` / `StructuredOutputParser.py.py` - End-to-end examples of extracting structured data from plain text output.
+- `stroutputparser.py` / `stroutputparser1.py` - Additional parser experimentation and raw text formatting examples.
 
 ---
 
@@ -94,6 +117,6 @@ python 3.EmbeddingModels/_document_similariity.py
 
 ---
 <div align="center">
-  <p><b>Release:</b> v1.1 | <b>Status:</b> ✅ Modules 1-4 Completed | <b>Future:</b> Module 4 (Structured-Output) Coming Next!</p>
+  <p><b>Release:</b> v1.1 | <b>Status:</b> ✅ Modules 1-6 Completed | <b>Future:</b> Module 7 (Chains) and Module 8 (Runnables) Coming Next!</p>
   <i>Built with ❤️ for AI Engineering</i>
 </div>

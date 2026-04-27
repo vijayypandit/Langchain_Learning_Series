@@ -59,6 +59,15 @@ Welcome to the **LangChain Modules Learning Series**. This repository contains p
 - `JsonOutputParser.py` / `PydanticOutputParser.py` / `StructuredOutputParser.py.py` - End-to-end examples of extracting structured data from plain text output.
 - `stroutputparser.py` / `stroutputparser1.py` - Additional parser experimentation and raw text formatting examples.
 
+### 📁 Module 9: Document Loaders (Data Ingestion)
+*Demonstrates how to load text, CSV, directory batches, and web content into LangChain.*
+- `9.Document-Loaders/README.md` - Module overview, loader types, and workflow guidance.
+- `9.Document-Loaders/text-loader.py` - Plain text ingestion using `TextLoader`.
+- `9.Document-Loaders/csv_loader.py` - CSV ingestion example using `CSVLoader` and `user_data.csv`.
+- `9.Document-Loaders/directory_loader.py` - Batch loading with `DirectoryLoader` for file collections.
+- `9.Document-Loaders/webbase_loader.py` - Web content ingestion example.
+- `user_data.csv` - Sample dataset in the repository root with 400 user records for CSV loader experiments.
+
 ---
 
 ## ⚡ Quick Start & Setup
@@ -91,6 +100,24 @@ Navigate to any module and execute the scripts:
 ```bash
 # Example: Running an embedding similarity check
 python 3.EmbeddingModels/_document_similariity.py
+```
+
+---
+
+## 📄 Sample CSV Data File
+The repository now includes a sample user dataset that is ready for CSV ingestion and data-processing demos.
+
+- File: `user_data.csv`
+- Location: repository root
+- Rows: 400 synthetic user records
+- Columns: `user`, `userid`, `gender`, `age`, `salary`, `purchased`
+- Example loader: `9.Document-Loaders/csv_loader.py`
+
+This file is useful for learning how to ingest structured tabular data into LangChain, build prompts over CSV rows, or run simple analytics.
+
+### Example usage
+```bash
+python -c "import pandas as pd; df = pd.read_csv('user_data.csv'); print(df.head())"
 ```
 
 ---

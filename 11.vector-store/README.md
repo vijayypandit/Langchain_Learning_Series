@@ -10,7 +10,7 @@
 
 A comprehensive guide covering everything you need to know about vector stores, from fundamentals to production deployment.
 
-[🎯 Quick Start](#key-features) • [📚 Architecture](#-vector-database) • [🔍 Search](#-similarity-search) • [💾 Databases](#popular-vector-databases-in-the-market)
+[🎯 Quick Start](#key-features) • [📚 Architecture](#vector-database) • [🔍 Search](#similarity-search) • [💾 Databases](#popular-vector-databases-in-the-market)
 
 </div>
 
@@ -20,30 +20,18 @@ A comprehensive guide covering everything you need to know about vector stores, 
 
 | Section | Topic |
 |---------|-------|
-| 💡 | [What are Vectors?](#-what-are-vectors) |
-| ⚡ | [Why Vector Stores are Required](#-why-vector-stores-are-required) |
-| 📦 | [Vector Database](#-vector-database) |
-| 🔍 | [Similarity Search](#-similarity-search) |
-| 📇 | [Indexing](#-indexing) |
-| ✨ | [Key Features](#-key-features) |
-| 🎨 | [Chroma DB](#-chroma-db-lightweight-vector-database) |
-| ⚡ | [FAISS](#-faiss-facebook-ai-similarity-search) |
+| 💡 | [What are Vectors?](#what-are-vectors) |
+| ⚡ | [Why Vector Stores are Required](#why-vector-stores-are-required) |
+| 📦 | [Vector Database](#vector-database) |
+| 🔍 | [Similarity Search](#similarity-search) |
+| 📇 | [Indexing](#indexing) |
+| ✨ | [Key Features](#key-features) |
+| 🎨 | [Chroma DB](#9-chroma-db) |
+| ⚡ | [FAISS](#10-faiss) |
 | 🏢 | [Vector Databases in Market](#popular-vector-databases-in-the-market) |
-| 🎯 | [Use Cases](#-use-cases) |
-| 📊 | [Summary](#-summary--key-takeaways) |
-| 📚 | [Resources](#-resources--further-reading) |
-
----
-
-1. [What are Vectors?](#what-are-vectors)
-2. [Why Vector Stores are Required](#why-vector-stores-are-required)
-3. [Vector Database](#vector-database)
-4. [Similarity Search](#similarity-search)
-5. [Indexing](#indexing)
-6. [Key Features](#key-features)
-7. [Chroma DB](#-chroma-db-lightweight-vector-database)
-8. [FAISS](#-faiss-facebook-ai-similarity-search)
-9. [Use Cases](#use-cases)
+| 🎯 | [Use Cases](#use-cases) |
+| 📊 | [Summary](#summary--key-takeaways) |
+| 📚 | [Resources](#resources--further-reading) |
 
 ---
 
@@ -253,21 +241,6 @@ Results (ordered by similarity):
 | **📊 Real-time recommendations** | Redis Stack | Sub-ms latency, caching capabilities |
 | **🐍 Python data science** | LanceDB | Serverless, SQL queries, embedded option |
 | **📱 MongoDB ecosystem** | MongoDB Atlas Vector | Integrated, familiar to MongoDB users |
-
----
-
-### 🏢 Detailed Features Matrix
-
-| Feature | Pinecone | Milvus | Weaviate | Qdrant | Chroma | FAISS | Redis | pgvector | MongoDB | LanceDB |
-|---------|----------|--------|----------|--------|--------|-------|-------|----------|---------|---------|
-| **Fully Managed** | ✅ | ❌ | ✅ Cloud | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ |
-| **Open Source** | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |
-| **GPU Support** | ❌ | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| **Hybrid Search** | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
-| **ACID Transactions** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ |
-| **GraphQL API** | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| **Cost Effectiveness** | 💰💰💰 | 💰 | 💰 | 💰 | 💰 | 💰 | 💰💰 | 💰 | 💰💰 | 💰 |
-| **Learning Curve** | ⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐ | ⭐⭐ | ⭐ |
 
 ---
 

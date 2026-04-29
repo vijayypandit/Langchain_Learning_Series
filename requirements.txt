@@ -28,3 +28,6 @@ transformers
 langchain-huggingface
 sentence-transformers
 grandalf
+chromadb
+openai
+tiktoken

@@ -59,6 +59,23 @@ Welcome to the **LangChain Modules Learning Series**. This repository contains p
 - `JsonOutputParser.py` / `PydanticOutputParser.py` / `StructuredOutputParser.py.py` - End-to-end examples of extracting structured data from plain text output.
 - `stroutputparser.py` / `stroutputparser1.py` - Additional parser experimentation and raw text formatting examples.
 
+### 📁 Module 7: Chains (Workflow Composition)
+*Building multi-step LangChain workflows and conditional logic.*
+- `7.Chains/README.md` - Module overview and chain design patterns.
+- `7.Chains/simple_chain.py` - Simple sequential chain composition.
+- `7.Chains/sequential_chain.py` - Step-by-step chained execution.
+- `7.Chains/conditional_chain.py` - Branching chain logic based on model outputs.
+- `7.Chains/parallel_chain.py` - Parallel execution of multiple chains.
+
+### 📁 Module 8: Runnables (Composable Pipelines)
+*Encapsulate tasks as reusable, lightweight model pipelines.*
+- `8.Runnables/README.md` - Concepts and practical runnable patterns.
+- `8.Runnables/runnable_passthrough.py` - Example of a passthrough runnable.
+- `8.Runnables/runnable_lambda.py` - Inline function wrapper for custom logic.
+- `8.Runnables/runnable_branch.py` - Conditional branching between runnables.
+- `8.Runnables/runnable_parallel.py` - Run multiple runnables concurrently.
+- `8.Runnables/runnable_sequence.py` - Sequential runnable pipeline example.
+
 ### 📁 Module 9: Document Loaders (Data Ingestion)
 *Demonstrates how to load text, CSV, directory batches, and web content into LangChain.*
 - `9.Document-Loaders/README.md` - Module overview, loader types, and workflow guidance.
@@ -67,6 +84,29 @@ Welcome to the **LangChain Modules Learning Series**. This repository contains p
 - `9.Document-Loaders/directory_loader.py` - Batch loading with `DirectoryLoader` for file collections.
 - `9.Document-Loaders/webbase_loader.py` - Web content ingestion example.
 - `user_data.csv` - Sample dataset in the repository root with 400 user records for CSV loader experiments.
+
+### 📁 Module 10: Text Splitters (Preprocessing)
+*Turn large documents into smaller chunks for embeddings and retrieval.*
+- `10.Text-Splitters/README.md` - Splitter strategies and best practices.
+- `10.Text-Splitters/length_based.py` - Split text by fixed length.
+- `10.Text-Splitters/markdown_based.py` - Split markdown-aware chunking.
+- `10.Text-Splitters/code_based.py` - Source code-aware splitting.
+- `10.Text-Splitters/semantic_meaning_based.py` - Semantic text boundary splitting.
+- `10.Text-Splitters/text_structure_based.py` - Structure-aware document segmentation.
+
+### 📁 Module 11: Vector Store (Indexes & Retrieval)
+*Store embeddings for fast semantic search and similarity retrieval.*
+- `11.vector-store/README.md` - Vector store concepts and usage notes.
+- `11.vector-store/langchain-chroma.ipynb` - Chroma index creation and querying walkthrough.
+- `11.vector-store/chroma_db/` - Local Chroma database storage directory.
+
+### 📁 Module 12: Retrievers (Smart Search)
+*Retrieve relevant content using retrievers, compression, and multi-query strategies.*
+- `12.Retrievers/README.md` - Retriever design and retrieval workflows.
+- `12.Retrievers/vector-store-retriever.ipynb` - Vector store retrieval example.
+- `12.Retrievers/compression-contextual-retriever.ipynb` - Context compression retriever demo.
+- `12.Retrievers/langchain-retriever.ipynb` - Standard LangChain retriever usage.
+- `12.Retrievers/multi-query-retriever.ipynb` - Multi-query retrieval patterns.
 
 ---
 
@@ -144,6 +184,6 @@ python -c "import pandas as pd; df = pd.read_csv('user_data.csv'); print(df.head
 
 ---
 <div align="center">
-  <p><b>Release:</b> v1.1 | <b>Status:</b> ✅ Modules 1-6 Completed | <b>Future:</b> Module 7 (Chains) and Module 8 (Runnables) Coming Next!</p>
+  <p><b>Release:</b> v1.1 | <b>Status:</b> ✅ Modules 1-12 Included | <b>Next:</b> Expanded examples, improved notebook walkthroughs, and more integration demos.</p>
   <i>Built with ❤️ for AI Engineering</i>
 </div>

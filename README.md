@@ -18,7 +18,25 @@ Welcome to the **LangChain Modules Learning Series**. This repository contains p
 
 ## 📂 Learning Modules
 
-### 📁 Module 1: LLMs (Foundations)
+### � Module README Navigation
+Click any module README below to open the folder-specific documentation directly.
+
+| Module | Description | README Link |
+|-------|-------------|-------------|
+| Module 1 | LLMs (Foundations) | [1.LLMs/README.md](1.LLMs/README.md) |
+| Module 2 | ChatModels (Conversational AI) | [2.ChatModels/README.md](2.ChatModels/README.md) |
+| Module 3 | Embedding Models (Semantic Search) | [3.EmbeddingModels/README.md](3.EmbeddingModels/README.md) |
+| Module 4 | Prompts & Chatbots | [4.Prompts/README.md](4.Prompts/README.md) |
+| Module 5 | Structured Output | [5.Structured-Output/README.md](5.Structured-Output/README.md) |
+| Module 6 | Output Parsers | [6.Output-parsers/README.md](6.Output-parsers/README.md) |
+| Module 7 | Chains | [7.Chains/README.md](7.Chains/README.md) |
+| Module 8 | Runnables | [8.Runnables/README.md](8.Runnables/README.md) |
+| Module 9 | Document Loaders | [9.Document-Loaders/README.md](9.Document-Loaders/README.md) |
+| Module 10 | Text Splitters | [10.Text-Splitters/README.md](10.Text-Splitters/README.md) |
+| Module 11 | Vector Store | [11.vector-store/README.md](11.vector-store/README.md) |
+| Module 12 | Retrievers | [12.Retrievers/README.md](12.Retrievers/README.md) |
+
+### �📁 Module 1: LLMs (Foundations)
 *Foundational Large Language Models.*
 - `_llm_demo.py` - Basics of initializing and querying ChatGroq & Google Gemini.
 

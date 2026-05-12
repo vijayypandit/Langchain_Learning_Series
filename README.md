@@ -35,6 +35,7 @@ Click any module README below to open the folder-specific documentation directly
 | Module 10 | Text Splitters | [10.Text-Splitters/README.md](10.Text-Splitters/README.md) |
 | Module 11 | Vector Store | [11.vector-store/README.md](11.vector-store/README.md) |
 | Module 12 | Retrievers | [12.Retrievers/README.md](12.Retrievers/README.md) |
+| Module 13 | Tools | [Tools/README.md](Tools/README.md) |
 
 ### �📁 Module 1: LLMs (Foundations)
 *Foundational Large Language Models.*
@@ -125,6 +126,17 @@ Click any module README below to open the folder-specific documentation directly
 - `12.Retrievers/compression-contextual-retriever.ipynb` - Context compression retriever demo.
 - `12.Retrievers/langchain-retriever.ipynb` - Standard LangChain retriever usage.
 - `12.Retrievers/multi-query-retriever.ipynb` - Multi-query retrieval patterns.
+
+### 📁 Module 13: Tools (Agent Actions & Integrations) 🛠️
+*Enable AI agents to interact with external systems, APIs, and perform real-world actions.*
+- `Tools/README.md` - Tool concepts, types, and comprehensive examples.
+- `Tools/tools-in-langchain.ipynb` - Interactive demonstrations of tool creation and usage.
+- **Top 10 Built-in Tools:** DuckDuckGoSearch, GoogleSearch, Calculator, SQLDatabase, BraveSearch, WikipediaAPI, ArxivAPI, PythonREPL, BingSearchAPI, RequestsPost.
+- **Tool Types:**
+  - ✨ **Built-in Tools** - Pre-configured tools ready to use.
+  - 🎨 **Custom Function Tools** - Simple `@tool` decorated functions.
+  - 🏗️ **Structured Tools** - Pydantic-validated tools for production use.
+  - 🔗 **Chained Tools** - Multi-step workflows combining multiple tools.
 
 ---
 

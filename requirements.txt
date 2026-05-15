@@ -33,3 +33,5 @@ sentence-transformers
 grandalf
 chromadb
 tiktoken
+requests
+duckduckgo_search

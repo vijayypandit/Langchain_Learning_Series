@@ -131,6 +131,8 @@ Click any module README below to open the folder-specific documentation directly
 *Enable AI agents to interact with external systems, APIs, and perform real-world actions.*
 - `Tools/README.md` - Tool concepts, types, and comprehensive examples.
 - `Tools/tools-in-langchain.ipynb` - Interactive demonstrations of tool creation and usage.
+- `Tools/tool-calling-in-langchai.ipynb` - Practical currency conversion agent demo with live API calls and injected tool arguments.
+- `Tools/tool-calling-in-langchai.ipynb` shows how the model chains tool calls to fetch a real-time exchange rate and then calculate the converted amount.
 - **Top 10 Built-in Tools:** DuckDuckGoSearch, GoogleSearch, Calculator, SQLDatabase, BraveSearch, WikipediaAPI, ArxivAPI, PythonREPL, BingSearchAPI, RequestsPost.
 - **Tool Types:**
   - ✨ **Built-in Tools** - Pre-configured tools ready to use.

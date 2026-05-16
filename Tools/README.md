@@ -16,7 +16,15 @@ By giving an LLM access to tools, you upgrade it from a passive text generator i
 
 ---
 
-## 🌟 What We Built: Real-Time Currency Exchange Agent
+## � Updated Tools Content
+This folder now includes a full currency conversion agent example that demonstrates:
+- Real-time exchange rate retrieval from an external API.
+- Tool chaining with LangChain, where one tool fetches a rate and another tool uses that rate for calculation.
+- A practical API + calculation workflow for queries like "Convert 100 USD to INR." 
+
+---
+
+## �🌟 What We Built: Real-Time Currency Exchange Agent
 
 To demonstrate the power of LangChain tools, we built a practical **Currency Conversion Agent**. This agent leverages external APIs and intelligent tool routing to answer real-world financial queries.
 
